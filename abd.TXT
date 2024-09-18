@@ -1,0 +1,12 @@
+const productsApi = async ({ products }) => {
+    console.log(process.env."https://dummyjson.com/products);
+    const res =await Axios({
+        method:"GET",
+        url: `${process.env.https://dummyjson.com/products}/products`,
+        headers: {
+            "Content-Type": "application/json;utf=8",
+        },
+        data: { title,price,id },
+    });
+    return res;
+}
